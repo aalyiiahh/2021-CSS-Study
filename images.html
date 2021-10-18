@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Images and CSS</title>
+    <style>
+        #rounded{
+            border-radius: 150px;
+            width:150px;
+        }
+        #thumbnail{
+            width: 100px;
+            border-radius: 20px;
+            padding: 13px;
+            border: 1px solid #ddd;
+        }
+        #responsive{
+            max-width: 25%;
+            height: auto;
+        }
+        #center{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            width: 50%
+        }
+        div.polaroid{
+            width: 25%;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0, .2), 0 6px 20px 0 rgba(0,0,0, .19);
+            margin-bottom: 20px;
+        }
+        div.container{
+            text-align: center;
+            padding: 10px 20px
+        }
+        #transparent{
+            opacity: .7;
+            width: 170px;
+        }
+    </style>
+</head>
+<body>
+    <img id="rounded" src="media/grumpy-cat.jpg" />
+    <br />
+    <img id="thumbnail" src="media/grumpy-cat.jpg" />
+    <br />
+    <img id="responsive" src="media/grumpy-cat.jpg" />
+    <br />
+    <img id="center" src="media/grumpy-cat.jpg" />
+    <br />
+    <div class="polaroid">
+        <img src="media/grumpy-cat.jpg" style="width: 100%"/>
+        <div class="container">
+            grumpy chumpy kitty kat
+        </div>
+    </div>
+    <img id="transparent" src="media/grumpy-cat.jpg" />
+</body>
+</html>
