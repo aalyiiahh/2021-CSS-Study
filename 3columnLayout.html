@@ -3,8 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        .container{
+            color: #3a5d5e;
+            background-color: #c5b861;
+            width:80%;
+            margin: auto;
+        }
+        body{
+            background-color: #6988ac;
+        }
+        .header{
+            width:80%;
+            height: 125px;
+            /*background-color:papayawhip;*/
+            text-align: center;
+            vertical-align:middle;
+            margin: auto;
+            font-size: xx-large;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #4f6c81;
+            overflow: hidden;
+            border-radius: 50px;
+        }
+        li{
+            float: left;
+            border-right: 1px solid #c5b861;
+            border-left: 1px solid #c5b861;
+        }
+        li a{
+            display: block;
+            color: #c5b861;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active){
+            background-color: #3a5d5e;
+        }
+        .active{
+            background-color: #374b56;
+        }
+        .content{
+            float:left;
+            width:26%;
+            padding-top: 15px;
+        }
+        .row:after{
+            content: "";
+            display:table;
+            clear: both;
+        }
+        .middle{
+           text-align: center;
+            padding-top:15px;
+            vertical-align: middle;
+        }
+        .righ{
+            float:right;
+            width:26%;
+            border:1px
+        }
+        .footer{
+            text-align: center;
+            padding: 20px;
+            font-size: 25px;
+
+        }
+        div.footer a{
+            text-decoration: none;
+            color: #374b56;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="header">
+                <h1>headerrrrr</h1>
+            </div>
+        </div>
+    <div class="row">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Socials</a></li>
+            <li style="float:right;"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="content" style="color: midnightblue">
+            L00k h3r3. info. more info. mas. just a bit more.info. more info. mas. just a bit more.info. more info. mas. just a
+            bit more.info. more info. mas. just a bit more.info. more info. mas. just a bit more. L00k h3r3. info. more info. mas. just a bit more.info. more info. mas. just a bit more.info. more info. mas. just a
+            bit more.info. more info. mas. just a bit more.info. more info. L00k h3r3. info. more info. mas. just a bit more.info. more info. mas. just a bit more.info. more info. mas. just a
+            bit more.info. more info. mas. just a bit more.info. more info.
+        </div>
+        <div class="middle">
+            crazy goofy silly funny haha crazy goofy silly funny haha crazy goofy silly funny haha crazy goofy silly funny haha crazy goofy silly funny haha
+        </div>
+        <div class="righ">
+            3rd column
+        </div>
+    </div>
+    <div class="row">
+        <div class="footer">
+            Copyright 2021 | Aalyiah Gallagher | Web Design | <a href="mailto:aalyiah.gallagher@vtsd.com">aalyiah.gallagher@vtsd.com</a>
+        </div>
+    </div>
 
+</div>
 </body>
 </html>
