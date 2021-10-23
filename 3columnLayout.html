@@ -7,7 +7,7 @@
         .container{
             color: #3a5d5e;
             background-color: #c5b861;
-            width:80%;
+            width:90%;
             margin: auto;
         }
         body{
@@ -48,25 +48,23 @@
         .active{
             background-color: #374b56;
         }
-        .content{
+        .content, .middle, .righ{
             float:left;
-            width:26%;
+            width:30%;
             padding-top: 15px;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: center;
+            display: inline-block;
+            overflow-wrap: break-word;
         }
         .row:after{
             content: "";
             display:table;
             clear: both;
         }
-        .middle{
-           text-align: center;
-            padding-top:15px;
-            vertical-align: middle;
-        }
-        .righ{
-            float:right;
-            width:26%;
-            border:1px
+        .container:after{
+            clear: both;
         }
         .footer{
             text-align: center;
@@ -87,34 +85,35 @@
                 <h1>headerrrrr</h1>
             </div>
         </div>
-    <div class="row">
-        <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Socials</a></li>
-            <li style="float:right;"><a href="#">Contact</a></li>
-        </ul>
-    </div>
-    <div class="row">
-        <div class="content" style="color: midnightblue">
-            L00k h3r3. info. more info. mas. just a bit more.info. more info. mas. just a bit more.info. more info. mas. just a
-            bit more.info. more info. mas. just a bit more.info. more info. mas. just a bit more. L00k h3r3. info. more info. mas. just a bit more.info. more info. mas. just a bit more.info. more info. mas. just a
-            bit more.info. more info. mas. just a bit more.info. more info. L00k h3r3. info. more info. mas. just a bit more.info. more info. mas. just a bit more.info. more info. mas. just a
-            bit more.info. more info. mas. just a bit more.info. more info.
+        <div class="row">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Socials</a></li>
+                <li style="float:right;"><a href="#">Contact</a></li>
+            </ul>
         </div>
-        <div class="middle">
+        <div class="row">
+            <div class="content" style="color: midnightblue">
+                L00k h3r3. info. more info. mas. just a bit more.info. more info. mas. just a bit more.info. more info. mas. just a
+                bit more.info. more info. mas. just a bit more.info. more info. mas. just a bit more. L00k h3r3. info. more info. mas. just a bit more.info. more info. mas. just a bit more.info. more info. mas. just a
+                bit more.info. more info. mas. just a bit more.info. more info. L00k h3r3. info. more info. mas. just a bit more.info. more info. mas. just a bit more.info. more info. mas. just a
+                bit more.info. more info. mas. just a bit more.info. more info.
+            </div>
+            <div class="middle">
             crazy goofy silly funny haha crazy goofy silly funny haha crazy goofy silly funny haha crazy goofy silly funny haha crazy goofy silly funny haha
+            </div>
+            <div class="righ">
+                yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaas
+            </div>
         </div>
-        <div class="righ">
-            3rd column
-        </div>
-    </div>
-    <div class="row">
-        <div class="footer">
+        <div class="row">
+            <div class="footer">
             Copyright 2021 | Aalyiah Gallagher | Web Design | <a href="mailto:aalyiah.gallagher@vtsd.com">aalyiah.gallagher@vtsd.com</a>
+            </div>
         </div>
-    </div>
 
 </div>
 </body>
