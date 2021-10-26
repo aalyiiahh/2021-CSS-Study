@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image dropdown</title>
+    <style>
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdowncontent{
+            display:none;
+            position: absolute;
+            background-color: mistyrose;
+            min-width: 160px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown:hover .dropdowncontent{
+            display: block;
+        }
+        body{
+            background-color: black;
+        }
+        .desc{
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  <div class="dropdown">
+      <img width="300" src="media/emo-meme-logan-paul.jpg" alt="Purple to Black ombre fringed hair swept to the right on logan paul.">
+      <div class="dropdowncontent">
+          <img width="600" src="media/emo-meme-logan-paul.jpg" alt="Purple to Black ombre fringed hair swept to the right on logan paul.">
+          <div class="desc">Although not a rare emo, and perhaps not even logan paul, This Image is essential for EMOS</div>
+      </div>
+  </div>
+</body>
+</html>
