@@ -42,9 +42,9 @@ li a:hover:not(.active){
 .active{
     background-color: #333333;
 }
-.content, .middle, .righ{
-    float:left;
-    width:30%;
+.content, .middle, .righ {
+    float: left;
+    width: 30%;
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -53,7 +53,31 @@ li a:hover:not(.active){
     overflow-wrap: break-word;
 }
 .content{
+    font-size: 80px;
+}
+.middle {
     font-size: 100px;
+    color: #ff00e3;
+    text-align: center;
+    animation: flicker 1.5s infinite alternate;
+}
+@-webkit-keyframes flicker {
+
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow:
+                0 0 40px #fff,
+                0 0 40px #ffffff,
+                0 0 30px #3a5d5e,
+                0 0 40px #374b56,
+                0 0 50px #3a5d5e,
+                0 0 60px #374b56,
+                0 0 70px #3a5d5e;
+    }
+
+    20%, 24%, 55% {
+        text-shadow:
+                text-shadow: none;
+    }
 }
 .row:after{
     content: "";
