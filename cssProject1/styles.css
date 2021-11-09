@@ -16,7 +16,7 @@ body{
     margin: auto;
     font-size: xx-large;
 }
-ul{
+div.navbar ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -24,19 +24,19 @@ ul{
     overflow: hidden;
     border-radius: 50px;
 }
-li{
+div.navbar li{
     float: left;
     border-right: 1px solid #c5b861;
     border-left: 1px solid #c5b861;
 }
-li a{
+div.navbar li a{
     display: block;
     color: #c5b861;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover:not(.active){
+div.navbar li a:hover:not(.active){
     background-color: #333322;
 }
 .active{
@@ -75,7 +75,6 @@ li a:hover:not(.active){
     }
 
     20%, 24%, 55% {
-        text-shadow:
                 text-shadow: none;
     }
 }
@@ -86,6 +85,9 @@ li a:hover:not(.active){
 }
 .container:after{
     clear: both;
+}
+.righ{
+    font-size: xxx-large;
 }
 .footer{
     text-align: center;
@@ -132,4 +134,20 @@ div.footer a{
 }
 .dropdownContent a:hover{
     background-color: #ddd;
+}
+div.righ a{
+    color: darkred;
+}
+.contentgal{
+
+}
+.polaroid {
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+    margin-bottom: 20px;
+}
+.caption{
+    text-align: center;
+    padding: 10px 20px
 }
