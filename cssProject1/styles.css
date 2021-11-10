@@ -141,13 +141,33 @@ div.righ a{
 .contentgal{
 
 }
-.polaroid {
-    width: 25%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
-    margin-bottom: 20px;
+div.polaroid img{
+    width: 250px;
+    padding-top: 20px;
 }
-.caption{
+div.middleway {
+    font-size: 100px;
+    color: #0e070d;
     text-align: center;
-    padding: 10px 20px
+    animation: flicker 1.5s infinite alternate;
+}
+@-webkit-keyframes flicker {
+
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow:
+                0 0 40px #0e0808,
+                0 0 40px #8220c4,
+                0 0 30px #5e00ff,
+                0 0 40px #7949d5,
+                0 0 50px #7452ee,
+                0 0 60px #4e0ec5,
+                0 0 70px #5e00ff;
+    }
+
+    20%, 24%, 55% {
+        text-shadow: none;
+    }
+}
+div.righ img{
+    width: 200px;
 }
