@@ -9,5 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="2021-HTML-Study" />
+    <orderEntry type="module" module-name="2021-Bootstrap-5" />
   </component>
 </module>
