@@ -4,5 +4,6 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../2021-Bootstrap-5" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../2021-Javascript-Study" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../2021-Javascript-Test-Prep" vcs="Git" />
   </component>
 </project>
